@@ -1,10 +1,10 @@
-####For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
+#### For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
 
-#####1) Share an example of using the command with no arguments.
-#####2) Share an exmaple of using the command with a path to a directory as an argument.
-#####3) Share an example of using the command with a path to a file as an argument.
+##### 1) Share an example of using the command with no arguments.
+##### 2) Share an exmaple of using the command with a path to a directory as an argument.
+##### 3) Share an example of using the command with a path to a file as an argument.
 
-####So that’s 9 total examples (3 for each command). For each, include:
+#### So that’s 9 total examples (3 for each command). For each, include:
 
 A screenshot or Markdown code block showing the command and its output
 What the working directory was when the command was run
