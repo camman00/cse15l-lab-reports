@@ -64,6 +64,7 @@ Similar answer to part 1. The string is appended to the ArrayList of type String
 
 ## Part 2 - SSH
 I will have to resubmit this part. I was talking with one of the TA's about the following errors. When prompted to put in my password the terminal always displays permission denied albeit the password I am entering is correct. 
+<img width="859" alt="image" src="https://github.com/camman00/cse15l-lab-reports/assets/20690269/b22462e5-0b5c-4b5c-86ff-3dad7bb16dca">
 
 ## Part 3 - What I learned this week
 ### SSH
