@@ -13,6 +13,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
 
 # cd with no args
 <img width="206" alt="image" src="https://github.com/camman00/cse15l-lab-reports/assets/20690269/461dbcb8-d117-4724-9d6b-41199ea0bdaf">
+
 * The working directory is the home directory.
 * cd ran with no args will bring you back to the configured home directory.
 * There is no error as this functionality is intentional.
