@@ -50,9 +50,9 @@ class StringServer {
 <img width="838" alt="image" src="https://github.com/camman00/cse15l-lab-reports/assets/20690269/e9c5c909-358f-4128-ab16-ccbcd9805a3f">
 
 ##### Which methods in your code are called?
-The code is all wrapped within one function/method but I will explain the different sub-routines. Essentially if the query is detected in which the path = s and the query is valid that specific item will be added into an ArrayList using implicit casting. So the input value will always be of type String which conforms the the ArrayList type. When the user goes back to the other page we iterate over elements and display the correct items.
+The code is all wrapped within one function/method named handleRequest which takes a URI as an argument; but I will explain the different sub-routines. Essentially if the query is detected in which the path = s and the query is valid that specific item will be added into an ArrayList using implicit casting (ArrayList is constructed of type String so we will add strings to the arrayList). So the input value will always be of type String which conforms the the ArrayList type. When the user goes back to the other page we iterate over elements and display the correct items. We can do this by deciding / conditional logic on the path which is a URL type. We can use the properties of the path which is a String.
 ##### How do the values of any relevant fields of the class change from this specific request?
-The only value that is mutated upon is the elements ArrayList of type String. We need to append the new String to the list in order to display it / save it later on.
+The only value that is mutated upon is the elements ArrayList of type String. We need to append the new String to the list in order to display it / save it later on. We also have to split the URL. To do this we can use basic string operations to obtain are new URL.
 
 ### /add-message Screen Shot #2
 <img width="691" alt="image" src="https://github.com/camman00/cse15l-lab-reports/assets/20690269/57eae314-101c-46f8-bbbb-fa703cec7053">
@@ -63,8 +63,12 @@ Please reference my answer for screen shot #1. To elaborate even more to display
 Similar answer to part 1. The string is appended to the ArrayList of type String.
 
 ## Part 2 - SSH
-I will have to resubmit this part. I was talking with one of the TA's about the following errors. When prompted to put in my password the terminal always displays permission denied albeit the password I am entering is correct. 
-<img width="859" alt="image" src="https://github.com/camman00/cse15l-lab-reports/assets/20690269/b22462e5-0b5c-4b5c-86ff-3dad7bb16dca">
+SSH Works now for me. Here is the successful login screenshot
+* ![image](https://github.com/camman00/cse15l-lab-reports/assets/20690269/cc694161-d81f-4f0a-a0c6-5acf24146796)
+* The public key is located here (truncated for security. Did not use ls but I had to cd into the dir and used cat which should be sufficient for this problem): ![image](https://github.com/camman00/cse15l-lab-reports/assets/20690269/6a79b41c-abd3-4852-b9f9-0a3986c6a64f)
+* The private key is located here: ![image](https://github.com/camman00/cse15l-lab-reports/assets/20690269/8431ea67-08a3-4799-baeb-a55cbc715d9a)
+
+
 
 ## Part 3 - What I learned this week
 ### SSH
